@@ -12,12 +12,13 @@ we have in the fridge.
 
 # What do I do?
 
+0. Run `sudo ./install.sh` to install depenancies
 1. Get a USB Barcode Scanner
-2. Run `server.sh`
+2. Run `./server.sh`
   
-  * Running `server.sh &` will fork the server into the background, creating a
+  * Running `./server.sh &` will fork the server into the background, creating a
     daemon.  This is probably the preferred usage, but daemons ARE harder to kill
-  * Running `server.sh & &> /dev/null` will create the daemon, and hide its output
+  * Running `./server.sh & &> /dev/null` will create the daemon, and hide its output
 
 3. Run `drinkdb.sh` everytime you add(buy) or remove(drink) a drink from the fridge
 4. Open 'http://<ip-of-this-computer>:8080' to see the status
@@ -31,6 +32,7 @@ Technically, all of it.  The easiest stuff to tweak would be:
   1. The port number, in `server.sh`
   2. The css, in `style.html`
   3. The refresh timer, in `meta.html` as `content`
+  4. Formatting options, in `~/.sqliterc`
 
 # Next Steps
 
