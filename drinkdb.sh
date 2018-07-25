@@ -154,7 +154,8 @@ showTable
         opt="" ;;
       4) massDelete;
         opt="" ;;
-      5) exit 0;
+      5) echo Bye.;
+        exit 0;
         opt="" ;;
       *) idiot;
         opt="" ;;
