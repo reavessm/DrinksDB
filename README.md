@@ -13,17 +13,9 @@ we have in the fridge.
 # What do I do?
 
 1. Get a USB Barcode Scanner
-2. Run `./server.sh`
-  
-  * Running `./server.sh &` will fork the server into the background, creating a
-    daemon.  This is probably the preferred usage, but daemons ARE harder to kill
-  * Running `./server.sh & &> /dev/null` will create the daemon, and hide its output
-
-3. Run `drinkdb.sh` everytime you add(buy) or remove(drink) a drink from the fridge
-4. Open 'http://<ip-of-this-computer>:8080' to see the status
-  
-  * This should autorefresh, but you may have to refresh the page a time or two
-    to get it started
+2. Run `sudo ./install.sh`
+3. Run `run.sh`
+4. Open 'http://\<ip-of-this-computer\>:8080' to see the status
 
 # How much is configurable?
 
