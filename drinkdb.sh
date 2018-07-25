@@ -39,10 +39,11 @@ checkDeps() {
 showTable () {
   clear
   echo -e "\e[92m\e[7m"
-  sqlite3 -column -header $db <<EOF
-.width 20 4
-SELECT * FROM Drinks;
-EOF
+#  sqlite3 -column -header $db <<EOF
+#.width 20 4
+#SELECT * FROM Drinks;
+#EOF
+  sqlite3 -column $db < show.sql
  echo -e "\e[0m\e[39m"
 }
 

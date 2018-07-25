@@ -12,7 +12,6 @@ we have in the fridge.
 
 # What do I do?
 
-0. Run `sudo ./install.sh` to install depenancies
 1. Get a USB Barcode Scanner
 2. Run `./server.sh`
   
@@ -32,7 +31,7 @@ Technically, all of it.  The easiest stuff to tweak would be:
   1. The port number, in `server.sh`
   2. The css, in `style.html`
   3. The refresh timer, in `meta.html` as `content`
-  4. Formatting options, in `~/.sqliterc`
+  4. Formatting options, in `show.sql`
 
 # Next Steps
 

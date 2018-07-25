@@ -36,5 +36,3 @@ if [ -f "drinkdb.sh" ]
 then
   chmod +x drinkdb.sh
 fi
-
-cat examplesqliterc >> $HOME/.sqliterc
